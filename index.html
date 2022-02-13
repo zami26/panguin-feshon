@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winter Panguin</title>
+    <!-------Tailwind css---->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        panguin: '#FFFBF0',
+                        jackerprice: '#FABE4C',
+                        mainseccolor: '#E5E5E5',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="bg-panguin pb-32 pt-12">
+        <section class="container mx-auto sm:flex items-center justify-around">
+            <div class="space-y-4">
+                <h1 class="text-3xl sm:text-5xl font-bold uppercase">
+                    <span class="text-yellow-400">Be the Penguins</span> <br>
+                    <span class="text-sky-900">of Winter</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, veniam.</p>
+                <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path
+                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    </svg>
+                    buy now</button>
+            </div>
+            <div class="pt-8 sm-pt-0">
+                <img class=" sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
+    <main class="container mx-auto bg-mainseccolor ">
+        <!-------women jacket---->
+        <section class="pb-24">
+            <h2 class=" text-5xl font-semibold">Women Jacket</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- jacket-1 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-semibold">Yellow Coat Jacket
+                    </h2>
+                    <p>This is a Yellow fancy jacket specialy for Women. If anyone were it, she will look so much prity
+                    </p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-bold text-jackerprice">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
+                            buy now</button>
+                    </div>
+                </div>
+
+                <!-- jacket-2 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-2.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-semibold">Ladies Jacket
+                    </h2>
+                    <p>This is a brown color fancy jacket specialy for Women. All girls and Women can try this.</p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-bold text-jackerprice">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
+                            buy now</button>
+                    </div>
+                </div>
+
+                <!-- jacket-3 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-3.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-semibold">Woman Leather Jacket
+                    </h2>
+                    <p>This is a red fancy jacket specialy for Women. If anyone were it, She will look like a red
+                        tomato.
+                    </p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-bold text-jackerprice">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
+                            buy now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Women jacket part ended---->
+        <section class="pb-24">
+            <!-- Men jackets started-------->
+            <h2 class="text-5xl font-bold">Men Jacket</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- jacket-1 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-semibold">Snowboard Jacket Mens
+                    </h2>
+                    <p>This is a Yellow fancy jacket specialy for men. If anyone were it, he will look so handsome
+                    </p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-bold text-jackerprice">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
+                            buy now</button>
+                    </div>
+                </div>
+
+                <!-- jacket-2 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-semibold">Man Leather Jackets
+                    </h2>
+                    <p>This is a chocolet color fancy jacket specialy for men. It is special because it is made of
+                        lather.
+                    </p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-bold text-jackerprice">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
+                            buy now</button>
+                    </div>
+                </div>
+
+                <!-- jacket-3 -->
+                <div class="p-4 shadow-lg rounded-xl">
+                    <div class="p-5 bg-slate-100 rounded-xl">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <h2 class="text-2xl font-semibold">Man Casual Jackets
+                    </h2>
+                    <p>This is a black fancy jacket specialy for men. If anyone were it, he will look like a red hero.
+                    </p>
+                    <div class="flex justify-between">
+                        <h2 class="text-4xl font-bold text-jackerprice">$234</h2>
+                        <button class="uppercase bg-[#A4BC46] px-5 py-3 text-white font-semibold rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
+                            buy now</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--------our fesilities------>
+            <div class=" gap-7 grid lg:grid-cols-2 mt-40">
+                <div class="rounded-xl lg:flex bg-white p-6">
+                    <img class="w-20 h-20" src="images/house.png" alt="">
+                    <div class="ml-4">
+                        <h2 class="text-2xl font-semibold">class="h-40"</h2>
+                        <p>Everybody is different, which is why we <br>
+                            offer styles for every body.</p>
+                    </div>
+                </div>
+                <div class="rounded-xl  row-span-3 order-first md:order-first lg:order-none">
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="rounded-xl sm:flex bg-white p-6">
+                    <img class="w-20 h-20" src="images/box.png" alt="">
+                    <div class="ml-4">
+                        <h2 class="text-2xl font-semibold">Free Exchanges
+                        </h2>
+                        <p>One of the many reasons you can shop <br>
+                            with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="rounded-xl sm:flex bg-white p-6">
+                    <img class="w-20 h-20" src="images/question.png" alt="">
+                    <div class="ml-4">
+                        <h2 class="text-2xl font-semibold">Contact Our Seller</h2>
+                        <p>They are here to help you. That's quite
+                            literally what we pay them for.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center">
+        <small> copyright warning 2025</small>
+    </footer>
+</body>
+
+</html>
